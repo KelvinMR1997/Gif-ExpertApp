@@ -6,6 +6,12 @@ body {
   padding: 60px;
 }
 
+.title {
+  font-family: cursive;
+  font-size: xxx-large;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 input {
   width: 100%;
   font-size: 1.2rem;

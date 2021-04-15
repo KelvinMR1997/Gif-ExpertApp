@@ -3,9 +3,12 @@ import React from "react";
 export const GifGridItem = ({ title, url }) => {
   // console.log(title, url);
   return (
-    <div className="card animate__animated animate__fadeIn">
-      <img src={url} alt={title} />
-      <p>{title}</p>
+    <div
+      style={{ color: "gray" }}
+      className="card animate__animated animate__fadeIn mb-3"
+    >
+      <img src={url} alt={title} title={title} />
+      <p style={{ color: "gray" }}>{title}</p>
     </div>
   );
 };
